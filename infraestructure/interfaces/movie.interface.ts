@@ -7,3 +7,11 @@ export interface IMovie {
   poster: string;
   backdrop: string;
 }
+
+export interface CompleteMovie extends IMovie {
+  genres: string[];
+  duration: number;
+  budget: number;
+  originalTitle: string;
+  productionCompanies: string[];
+}
