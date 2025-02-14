@@ -9,5 +9,5 @@ bun i
 ## Execute dev server
 
 ```bun
-bun dev
+bun start
 ```
